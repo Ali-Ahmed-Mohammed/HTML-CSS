@@ -1,4 +1,4 @@
-# Today I Lerant Some Basics of HTML {with Mosh hamadani}(https://members.codewithmosh.com)
+# Today I Learnt Some Basics of HTML {with Mosh hamadani}(https://members.codewithmosh.com)
 - The <head> section is used to provide information about a webpage.
 - The p element is used to represent a paragraph. A paragraph can be one or many lines of text
 - The em element is used to define emphasized text. By default, emphasized text is displayed in italic.
