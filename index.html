@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Basics of html and css ">
+  <meta name="author" content="Ali Ahmed Mohamed">
+  <title>HTML/CSS Learning </title>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: rgb(211, 209, 209);
+      color: #110606;
+      font-size: 18px;
+      font-family:sans-serif;
+      line-height: 1.5;
+      padding: 26px;
+    }
+    nav ul li{
+      list-style-type: none;
+    }
+    nav ul li a{
+      color: #e9e5e5;
+      text-decoration: none;
+      padding-left: 14px;
+      
+    }
+    nav{
+      background-color: #110606;
+    }
+
+    #images, #videos{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+     
+    table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+}
+
+td, th {
+  border: 2px solid #2670b4;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #494848;
+}
+tr:nth-child(odd) {
+  background-color: #291d1d;
+}
+  </style>
+
+</head>
+<body>
+
+  <header>
+<nav>
+  <ul>
+    <li>
+      <a href="#sample-table">Table</a>
+    </li>
+    <li>
+      <a href="#images">Images</a>
+    </li>
+    <li>
+      <a href="#videos">Videos</a>
+    </li>
+  </ul>
+</nav>
+</header>
+
+  <h1>Hello World</h1>
+  <h2>Welcome the html and css tutorial</h2>
+  <p>in his section we will practice the basics of <strong>HTML</strong> and <strong>CSS</strong> lessons.</p>
+  <hr>
+  <h3>Ordered list — used to group a set of related items in a specific order.</h3>
+  <ol>
+    <li><strong>Html</strong> from scratch to advance </li>
+    <li><strong>Css</strong> from scratch to advance</li>
+    <li><strong>JavaScript</strong> from scratch to advance</li>
+    <li><strong>Node.js</strong> from scratch to advance</li>
+  </ol>
+  <h3>Unordered list — used to group a set of related items in no particular order.</h3>
+  <ul>
+    <li>Chicken & Chips first favourite food </li>
+    <li>Rice and meat also the second favourite food</li>
+    <li>Bread and Egg the last my fovurite food</li>
+  </ul>
+  <h3>Description list — used to display name/value pairs such as terms and definitions.</h3>
+  <dl>
+    <dt><strong>HTML</strong></dt>
+    <dd>Standard for hyper Text Markup Language</dd>
+    <dt><strong>JS</strong></dt>
+    <dd>Standard for JavaScript</dd>
+    <dt><strong>CSS</strong></dt>
+    <dd>Standard for Cascading Style Sheet</dd>
+  </dl>
+  <hr>
+
+  <h3>Inserting Image</h3>
+
+  <hr>
+
+  <div id="images">
+
+    <div class="place">
+      <img src="/Beutiful-Place.jpg" alt="Beutiful Place Picture" width="400px" height="400px">
+    </div>
+
+  <div class="code">
+    <img src="/laptop.jpg" alt="laptop wrting code" width="400px" height="400px">
+  </div>
+  
+  <div class="my-picture">
+    <img src="/Ali picture.jpg" alt="My picture" width="400px" height="400px">
+  </div>
+  
+</div>
+
+<div id="videos">
+
+  <div class="gangs">
+    <video controls autoplay loop src="/gangs video.mp4" width="600px" height="600px"></video>
+  </div>
+
+<div class="chickens">
+  <video controls autoplay loop src="/Chickens video.mp4" width="600px" height="600px">
+  </video>
+</div>
+</div>
+<hr>
+
+<table id="sample-table">
+
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Rice</td>
+      <td>$18</td>
+    </tr>
+    <tr>
+      <td>Sugar</td>
+      <td>$15</td>
+    </tr>
+    <tr>
+      <td>Flour</td>
+      <td>$16</td>
+    </tr>
+    <tr>
+      <td>Past</td>
+      <td>$9</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td>$58</td>
+    </tr>
+  </tfoot>
+</table>
+
+<a href="#">Back to Home</a>
+
+</body>
+</html>
